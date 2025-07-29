@@ -14,15 +14,15 @@
     --secondary-gradient: linear-gradient(135deg, #414345, #232526);
     --danger-gradient: linear-gradient(135deg, #cb2d3e, #ef473a);
     --success-gradient: linear-gradient(135deg, #134e5e, #71b280);
-    --background-gradient: linear-gradient(135deg, #2e2e2e, #2e2e2e, #2e2e2e);
+    --background: linear-gradient(90deg, #2e2e2e);
     --card-gradient: linear-gradient(rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.01));
-    --hover-gradient: linear-gradient(135deg, #2e2e2e, #2e2e2e);
+    --hover-gradient: linear-gradient(90deg, #2e2e2e);
     
     /* Payment Methods Colors */
-    --gopay-gradient: linear-gradient(135deg, #1D976C, #93F9B9);
-    --dana-gradient: linear-gradient(135deg, #0082c8, #667db6);
-    --bitcoin-gradient: linear-gradient(135deg, #f2994a, #f2c94c);
-    --paypal-gradient: linear-gradient(135deg, #2193b0, #6dd5ed);
+    --gopay-gradient: linear-gradient(90deg, #1D976C, #93F9B9);
+    --dana-gradient: linear-gradient(190deg, #0082c8, #667db6);
+    --bitcoin-gradient: linear-gradient(90deg, #f2994a, #f2c94c);
+    --paypal-gradient: linear-gradient(90deg, #2193b0, #6dd5ed);
     
     /* Effects */
     --card-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.15);
@@ -33,7 +33,7 @@
 /* Body and Container */
 body {
     min-height: 100vh;
-    background: var(--background-gradient);
+    background: var(--background);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -47,7 +47,7 @@ body {
 .container {
     max-width: 1200px;
     width: 100%;
-    background: rgba(46,46,46);
+    background: rgba(46,46,46,1);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     border-radius: 30px;
