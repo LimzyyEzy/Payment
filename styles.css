@@ -14,9 +14,9 @@
     --secondary-gradient: linear-gradient(135deg, #414345, #232526);
     --danger-gradient: linear-gradient(135deg, #cb2d3e, #ef473a);
     --success-gradient: linear-gradient(135deg, #134e5e, #71b280);
-    --background-gradient: linear-gradient(135deg, #212121, #212121, #212121);
+    --background-gradient: linear-gradient(135deg, #2e2e2e, #2e2e2e, #2e2e2e);
     --card-gradient: linear-gradient(rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.01));
-    --hover-gradient: linear-gradient(135deg, #212121, #212121);
+    --hover-gradient: linear-gradient(135deg, #2e2e2e, #2e2e2e);
     
     /* Payment Methods Colors */
     --gopay-gradient: linear-gradient(135deg, #1D976C, #93F9B9);
@@ -47,7 +47,7 @@ body {
 .container {
     max-width: 1200px;
     width: 100%;
-    background: rgba(33,33,33);
+    background: rgba(46,46,46);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     border-radius: 30px;
