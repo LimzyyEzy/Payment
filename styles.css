@@ -33,7 +33,7 @@
 /* Body and Container */
 body {
     min-height: 100vh;
-    background: var(--background);
+    background: var(--background-gradient);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -47,7 +47,7 @@ body {
 .container {
     max-width: 1200px;
     width: 100%;
-    background: rgba(33,33,33,0.85);
+    background: rgba(33,33,33);
     backdrop-filter: blur(10px);
     -webkit-backdrop-filter: blur(10px);
     border-radius: 30px;
