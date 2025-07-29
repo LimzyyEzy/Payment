@@ -16,7 +16,7 @@
     --success-gradient: linear-gradient(135deg, #134e5e, #71b280);
     --background-gradient: linear-gradient(135deg, #2e2e2e, #2e2e2e, #2e2e2e);
     --card-gradient: linear-gradient(rgba(255, 255, 255, 0.05), rgba(255, 255, 255, 0.01));
-    --hover-gradient: linear-gradient(135deg, #1a1a2e, #16213e);
+    --hover-gradient: linear-gradient(135deg, #2e2e2e, #2e2e2e);
     
     /* Payment Methods Colors */
     --gopay-gradient: linear-gradient(135deg, #1D976C, #93F9B9);
