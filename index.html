@@ -34,29 +34,31 @@
         </div>
 
         <div class="payment-grid">
-            <!-- GOPAY -->
-            <div class="payment-method" data-method="gopay">
+            <<!-- QRIS -->
+            <div class="payment-method" data-method="qris">
                 <div class="payment-header">
-                    <div class="payment-logo">
-                        <img src="https://raw.githubusercontent.com/LimzyyEzy/webimage/refs/heads/main/icon%20gopay.png" 
-                             alt="GoPay" 
-                             loading="lazy"
-                             style="background-color: #fff; padding: 2px;">
-                    </div>
                     <div class="payment-info">
-                        <h3>GOPAY</h3>
+                        <h3>QRIS</h3>
                     </div>
                 </div>
                 <div class="payment-details">
-                    <p>0852-8001-9052</p>
-                    <p>A/N Irma</p>
+                    <p>Scan QR Code Below</p>
+                </div>
+                <div class="qris-image-container">
+                    <img src="https://raw.githubusercontent.com/LimzyyEzy/webimage/refs/heads/main/QRIS.png"
+                         alt="QRIS" 
+                         loading="lazy"
+                         style="width: 100%; height: auto; border-radius: 10px; margin: 15px 0;">
                 </div>
                 <div class="status-badge ready">
                     <i class="fas fa-check-circle"></i> READY
                 </div>
-                <button class="copy-btn" onclick="copyToClipboard('0852-8001-9052')">
-                    <i class="far fa-copy"></i> Copy Number
-                </button>
+                <a href="https://raw.githubusercontent.com/LimzyyEzy/webimage/refs/heads/main/QRIS.png"
+class="copy-btn"
+                   download="QRIS_Payment.png"
+                   target="_blank">
+                    <i class="fas fa-download"></i> Download QR Code
+                </a>
             </div>
 
             <!-- DANA -->
